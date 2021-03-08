@@ -1,0 +1,3 @@
+/content/drive/My Drive/Projects/BCCD/test_images/BloodImage_00408.jpg
+/content/drive/My Drive/Projects/BCCD/test_images/BloodImage_00409.jpg
+/content/drive/My Drive/Projects/BCCD/test_images/BloodImage_00410.jpg
