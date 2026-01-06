@@ -9,22 +9,27 @@ The project uses a **custom YOLOv3 configuration** and annotated dataset for tra
 ---
 
 ## 📂 Repository Structure
-   |
-   ├── annotations/ # Annotation files (bounding boxes)
-   ├── annotations_df.xlsx # Annotation data in Excel format
-   ├── Bloodcells.ipynb # Jupyter notebook for data analysis
-   ├── train.txt # Training image paths
-   ├── test.txt # Testing image paths
-   ├── WBC-obj.data # YOLO data file
-   ├── WBC.names # Class names
-   ├── yolo_custom.cfg # Custom YOLOv3 configuration
-   ├── yolov3.cfg # Original YOLOv3 configuration
-   ├── .gitignore
-   ├── LICENSE
-   └── README.md
 
-yaml
-Copy code
+```
+WBC-YOLOv3/
+│
+├── annotations/              # Annotation files (bounding boxes)
+├── annotations_df.xlsx       # Annotation data in Excel format
+├── Bloodcells.ipynb          # Jupyter notebook for data analysis
+│
+├── train.txt                 # Training image paths
+├── test.txt                  # Testing image paths
+│
+├── WBC-obj.data              # YOLO data file
+├── WBC.names                 # Class names
+│
+├── yolo_custom.cfg           # Custom YOLOv3 configuration
+├── yolov3.cfg                # Original YOLOv3 configuration
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 ---
 
@@ -41,16 +46,13 @@ Copy code
 
 The class names are defined in:
 
-WBC.names
+#### WBC.names
 
 makefile
-Copy code
 
-Example:
 WBC
 
 yaml
-Copy code
 
 ---
 
