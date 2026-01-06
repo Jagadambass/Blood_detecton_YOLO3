@@ -59,7 +59,7 @@ names:
   - WBC
 🏷️ Classes
 
-```yaml
+yaml
 classes:
   - WBC
 
