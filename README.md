@@ -48,11 +48,21 @@ The class names are defined in:
 
 #### WBC.names
 
-makefile
+classes:
+  - WBC
+path: ./dataset
+train: train/images
+val: val/images
 
-WBC
+nc: 1
+names:
+  - WBC
+🏷️ Classes
 
-yaml
+```yaml
+classes:
+  - WBC
+
 
 ---
 
